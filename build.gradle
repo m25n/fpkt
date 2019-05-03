@@ -26,26 +26,22 @@ kotlin {
         }
         jvmMain {
             dependencies {
-                dependsOn commonMain
                 implementation kotlin('stdlib-jdk8')
             }
         }
         jvmTest {
             dependencies {
-                dependsOn commonTest
                 implementation kotlin('test')
                 implementation kotlin('test-junit')
             }
         }
         jsMain {
             dependencies {
-                dependsOn commonMain
                 implementation kotlin('stdlib-js')
             }
         }
         jsTest {
             dependencies {
-                dependsOn commonTest
                 implementation kotlin('test-js')
             }
         }
