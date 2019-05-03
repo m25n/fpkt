@@ -4,8 +4,8 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId="fpkt">
         <sourceSets>
-          <sourceSet>com.github.mceldeen.fpkt.fpkt.commonTest</sourceSet>
           <sourceSet>com.github.mceldeen.fpkt.fpkt.jsMain</sourceSet>
+          <sourceSet>com.github.mceldeen.fpkt.fpkt.commonTest</sourceSet>
           <sourceSet>com.github.mceldeen.fpkt.fpkt.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
