@@ -11,7 +11,11 @@ apply plugin: 'maven-publish'
 
 kotlin {
     jvm()
-    js()
+    js() {
+        compilations.main.kotlinOptions {
+            moduleKind = "commonjs"
+        }
+    }
     sourceSets {
         commonMain {
             dependencies {
